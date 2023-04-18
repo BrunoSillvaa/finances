@@ -11,7 +11,7 @@ export const BalanceInfo = styled.section`
   align-items: center;
 
   @media (max-width: 500px) {
-    flex-direction: column;
+    flex-direction: row;
   }
 `
 export const MonthContainer = styled.div`
@@ -21,6 +21,10 @@ export const MonthContainer = styled.div`
   gap: 10px;
   font-weight: 500;
   flex-wrap: nowrap;
+
+  @media (max-width: 500px) {
+    gap: 0;
+  }
 
   .icon {
     cursor: pointer;
@@ -34,6 +38,10 @@ export const Month = styled.h2`
   min-width: 160px;
   font-size: 16px;
   text-align: center;
+
+  @media (max-width: 500px) {
+    min-width: auto;
+  }
 `
 export const ValuesContainer = styled.div`
   display: flex;
@@ -42,4 +50,9 @@ export const ValuesContainer = styled.div`
   align-items: center;
   gap: 10px;
   font-weight: 500;
+
+  @media (max-width: 500px) {
+    align-items: center;
+    justify-content: center;
+  }
 `

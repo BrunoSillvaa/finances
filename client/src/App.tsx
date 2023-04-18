@@ -7,7 +7,6 @@ import AdditionArea from './components/AdditionArea'
 import MonthInfo from './components/MonthInfo'
 // Context
 import { ItemListProvider } from './context/itemListContext'
-import PieGraph from './components/PieGraph'
 
 function App() {
   return (

@@ -97,7 +97,7 @@ export default () => {
       <FiPieChart className="graph-icon" onClick={() => setIsOpenGraph(true)}/>
     </BalanceInfo>
 
-    {isOpenGraph && <PieGraph props={{setIsOpenGraph, filteredItems}}/>}
+    {/* {isOpenGraph && <PieGraph props={{setIsOpenGraph, filteredItems}}/>} */}
     </>
   )
 }
